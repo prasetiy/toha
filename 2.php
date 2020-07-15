@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function15.php";
-echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m_________________   TOHA MATOH!!!!!!!!  _________________ \n";
+echo "\e[95m\n";
+echo "\e[96m_________________  SUHU TOHA MATOH!!!!!!!!  ____________ \n";
 echo "\e[96m          \n";
 echo "\e[96m          \n";
 echo "\e[96m          \n";
@@ -10,17 +10,17 @@ echo "\e[96m          \n";
 echo "\e[96m          \n";
 echo "\e[96m          \n";
 echo "\e[96m ********\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m********\n";
-echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+echo "\e[95m\n";
+echo "\e[96m\n";
 echo "\e[93m            \e[96m SRUPUT KOPI DULU SEBELUM KESAWAH \e[93m \n";
-echo "\e[96m  ==============================================\n";
-echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+echo "\e[96m \n";
+echo "\e[96m\n";
 echo color("white","Token: ");
 $token = trim(fgets(STDIN));
 echo "\n".color("white","Claim?: y/n ");
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
-        echo color("red","▬▬▬▬▬▬▬▬▬▬▬▬VOUCHER 15+10+5▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo color("red","SEMOGA DAPAT ");
         echo "\n".color("white","Claim A..");
         echo "\n".color("white","Please wait");
         for($a=1;$a<=3;$a++){
